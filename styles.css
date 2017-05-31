@@ -1,0 +1,69 @@
+.jumbotron {
+    background-image: url(http://library.castilleja.org/wp-content/uploads/2013/03/wikipedia-logo-.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    color: red;
+    text-shadow: 2px 2px black;
+}
+
+#term {
+    width: 170px;
+    -webkit-transition: width 0.3s ease-in-out;
+    -moz-transition: width 0.3s ease-in-out;
+}
+
+#term:focus {
+    width: 400px;
+}
+
+#wikiResults {
+    margin: 50px 0 0 50px;
+}
+
+.wikiResultTable {
+    border: 20px solid transparent;
+    padding: 15px;
+    border-image-source: url(data:image/png;base64,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);    
+    border-image-slice: 30;
+    font-family: 'Rancho', cursive; 
+    font-size: 25px;
+}
+
+.wikiResultTable:hover {
+    background-color: yellow;
+    color: black;
+    
+}
+#wow {
+    background-color: darkslategray;
+    
+}
+body {
+    background-image: url(http://library.castilleja.org/wp-content/uploads/2013/03/wikipedia-logo-.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+footer {
+    background-color: lightgray;
+    padding: 40px;
+    text-shadow: 2px 2px lightblue;
+    font-family: 'Molengo', sans-serif;
+}
+
+#created {
+    text-shadow: 2px 2px red;
+    font-family: 'Molengo', sans-serif;
+    font-size: 20px;
+}

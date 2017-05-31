@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Wikipedia Viewer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Molengo|Rancho" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1><ul><strong>Wikipedia Viewer</strong></ul></h1>
+    </div>
+    <div class="input-group container">
+        <span class="input-group-btn"><button class="btn btn-danger onclick"><a class="help" href="https://en.wikipedia.org/wiki/Special:Random">Random</a></button></span>
+        <input class="form-control" type="text" id="Term" placeholder="Place text here for search results" />
+        <span class="input-group-btn"><button class="btn btn-primary onclick" id="search-Button" value="submit">Search</button></span>
+        <span class="input-group-btn"><button class="btn btn-warning onclick" id="Reset">Reset</button></span>
+    </div>
+    <hr>
+    <br/>
+    <div class="container" id="wow">
+        <span id="wikiResults"></span>
+    </div>
+    <hr>
+    <footer class="text-center">
+        <p>
+            <u id="created">Created By:</u>
+        </p><a href="https://github.com/truepalyer6">Cory Bowles</a>
+        <p><a href="https://www.freecodecamp.com"><em>&copy;FreeCodeCamp.com. All Rights Reserved</em></a></p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>-->
+    <!--<script src="https://code.jquery.com/jquery-git.min.js"></script>-->
+    
+</body>
+
+</html>
